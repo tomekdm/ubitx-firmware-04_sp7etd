@@ -30,32 +30,33 @@ Still some HW mods are planned to be made based on data from ubitx websites (AGC
 
 These are some points summarizing my firmware mods:
 
-1. jog tuning (digit tuning) implemented instead of dynamic knob tuning
-By default jog position is set to 0.1 digit. Short press knob to shift jog right (eg. to 0.01),
-press little longer to shift jog left 1.0, 10 and 100 respectively.
-Actual jog position is displayed at the bottom right corner of TFT screen.
-This firmware allows for 0.01 kHz step tuning (minimal 0.05 kHz in original firmware).
+1. jog tuning (digit tuning) implemented instead of dynamic tuning
 
-2. Discovered that checking TFT touch is causing sometimes audio noises (possible due to SPI).
-With this firmware You can toggle TFT touch ON/OFF with 5 seconds press and release of the knob.
+By default jog position is set to 0.1 digit. Short knob press to shift jog single position right (eg. to 0.01),
+press little longer to shift jog to the left (e.g. 1.0, 10 and 100 respectively).
+Actual jog position is displayed at the bottom right corner of TFT screen.
+This firmware allows for 0.01 kHz step tuning (0.05 kHz minimal was in original firmware).
+
+3. Discovered that function checking TFT touch screen is causing sometimes audio noises (possible due to SPI).
+With this firmware You can toggle TFT touch ON/OFF with ~5 seconds press and release of the knob.
 Status of touch state is indicated by "t" letter at the bottom right corner of TFT screen.
 
-3. CW keying modified - discovered that start of CW TX is cutting first dots - starting dots were not transmitted. 
-Some TX delays were commented out, CW TX was smoothed. Couple CW QSO made.
+4. CW keying modified - discovered that start of CW TX is cutting out first dots - starting dots were not transmitted. 
+Some TX delays were commented out, CW TX is smooth now. Couple CW QSO made.
 
-4. Additionally discovered that CW TX frequency was shifted by sidetone +/- depending if USB or LSB was selected.
-This shift was commented out and CW TX occurs on displayed/selected frequency.
+5. Additionally discovered that CW TX frequency was shifted by sidetone +/- depending if USB or LSB was selected.
+This shift was commented out and CW TX occurs now on displayed/selected frequency.
 
-5. Some cosmetic and SW stability changes
-E.g. to display pop ups - some pop up messages where shifted to improve cosmetics.
+6. Some cosmetic and SW stability changes
+e.g. to display pop ups - some pop up messages where shifted to improve cosmetics.
+Some stability issues found (original firmware was not working stable with my usb-c type arduino nano).
+Seems to be OK. now.
+
+So, now last line shows:
+Shortened CW status (no units), origin and version of firmware, jog position and TFT touch status - presence of letter "t" indicates touch sensing ON (absence OFF). Please don't blame me for sp7etd sign. Feel free to enter Your or project creator call sign.
 
 
-6. So now last line shows:
-Jog position, TFT touch status - presence of letter "t" indicates touch sensing ON/OFF, 
-also firmware version and origin. Please don't blame me for sp7etd sign. Feel free to enter Your or project creator call sign.
-
-
-So, summarizing, pressing knob has 5 functions now:
+Summarizing, button knob has 5 functions now (depends on pressing time):
 1. short press - jog position to the right
 2. little longer press - jog position to the left
 Jog position is displayed on the right bottom corner
