@@ -37,24 +37,23 @@ press little longer to shift jog to the left (e.g. 1.0, 10 and 100 respectively)
 Actual jog position is displayed at the bottom right corner of TFT screen.
 This firmware allows for 0.01 kHz step tuning (0.05 kHz minimal was in original firmware).
 
-3. Discovered that function checking TFT touch screen is causing sometimes audio noises (possible due to SPI).
+2. Discovered that function checking TFT touch screen is causing sometimes audio noises (possible due to SPI).
 With this firmware You can toggle TFT touch ON/OFF with ~5 seconds press and release of the knob.
 Status of touch state is indicated by "t" letter at the bottom right corner of TFT screen.
 
-4. CW keying modified - discovered that start of CW TX is cutting out first dots - starting dots were not transmitted. 
+3. CW keying modified - discovered that start of CW TX is cutting out first dots - starting dots were not transmitted. 
 Some TX delays were commented out, CW TX is smooth now. Couple CW QSO made.
 
-5. Additionally discovered that CW TX frequency was shifted by sidetone +/- depending if USB or LSB was selected.
+4. Additionally discovered that CW TX frequency was shifted by sidetone +/- depending if USB or LSB was selected.
 This shift was commented out and CW TX occurs now on displayed/selected frequency.
 
-6. Some cosmetic and SW stability changes
+5. Some cosmetic and SW stability changes
 e.g. to display pop ups - some pop up messages where shifted to improve cosmetics.
 Some stability issues found (original firmware was not working stable with my usb-c type arduino nano).
 Seems to be OK. now.
 
 So, now last line shows:
 Shortened CW status (no units), origin and version of firmware, jog position and TFT touch status - presence of letter "t" indicates touch sensing ON (absence OFF). Please don't blame me for sp7etd sign. Feel free to enter Your or project creator call sign.
-
 
 Summarizing, button knob has 5 functions now (depends on pressing time):
 1. short press - jog position to the right
