@@ -18,8 +18,7 @@ For use with original ILI9341 320x240 TFT display.
 
 Hello,
 I have bought ubitx v6 couple weeks ago and at beginning I was a little disappointed with CW performance and some functionalities.
-Decided to adjust it to my needs with default TFT display (320x240 TFT display using the ILI9341) 
-and then I have discovered beauty of this open project.
+Decided to adjust it to my needs with default ILI9341 320x240 TFT display and then I have discovered beauty of this open project.
 
 I would like to take this opportunity to thank the creator of this project Ashhar Farhan VU2ESE,
 as well as all the people thanks to whom this wonderful project lives and becomes better.
