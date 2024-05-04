@@ -11,7 +11,8 @@ This is released under GPL v3 license.
 
 /////////////////////////////////////
 
-//04_sp7etd firmware update manual://
+04_sp7etd firmware update manual:
+
 NOTE 1:
 Firmware originated from v6.3.1 Arduino sketch.
 For use with original ILI9341 320x240 TFT display.
