@@ -30,7 +30,7 @@ Still some HW mods are planned to be made based on data from ubitx websites (AGC
 
 These are some points summarizing my firmware mods:
 
-1. jog tuning (digit tuning) implemented instead of dynamic tuning
+1. jog tuning (digit tuning - usdx tuning style) implemented instead of dynamic tuning
 
 By default jog position is set to 0.1 digit. Short knob press to shift jog single position right (eg. to 0.01),
 press little longer to shift jog to the left (e.g. 1.0, 10 and 100 respectively).
