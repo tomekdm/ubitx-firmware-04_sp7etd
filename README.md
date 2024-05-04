@@ -55,7 +55,7 @@ Jog position, TFT touch status - presence of letter "t" indicates touch sensing 
 also firmware version and origin. Please don't blame me for sp7etd sign. Feel free to enter Your or project creator call sign.
 
 
-So, summarizing, pressing knob has 4 functions now:
+So, summarizing, pressing knob has 5 functions now:
 1. short press - jog position to the right
 2. little longer press - jog position to the left
 Jog position is displayed on the right bottom corner
