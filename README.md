@@ -37,7 +37,7 @@ press little longer to shift jog to the left (e.g. 1.0, 10 and 100 respectively)
 Actual jog position is displayed at the bottom right corner of TFT screen.
 This firmware allows for 0.01 kHz step tuning (0.05 kHz minimal was in original firmware).
 
-2. Discovered that function checking TFT touch screen is causing sometimes audio noises (possible due to SPI).
+2. Discovered that function checking TFT touch screen is sometimes causing audio noises (possible due to SPI).
 With this firmware You can toggle TFT touch ON/OFF with ~5 seconds press and release of the knob.
 Status of touch state is indicated by "t" letter at the bottom right corner of TFT screen.
 
