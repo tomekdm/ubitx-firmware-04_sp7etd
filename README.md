@@ -53,7 +53,7 @@ Some stability issues found (original firmware was not working stable with my us
 Seems to be OK. now.
 
 So, now last line shows:
-Shortened CW status (no units), origin and version of firmware, jog position and TFT touch status - presence of letter "t" indicates touch sensing ON (absence OFF). Please don't blame me for sp7etd sign. Feel free to enter Your or project creator call sign.
+Shortened CW status (no units), version and origin of updated firmware, jog position and TFT touch status - presence of letter "t" indicates touch sensing ON (absence OFF). Please don't blame me for sp7etd sign. Feel free to enter Your or project creator call sign.
 
 Summarizing, button knob has 5 functions now (depends on pressing time):
 1. short press - jog position to the right
