@@ -32,19 +32,18 @@ These are some points summarizing my firmware mods:
 
 1. jog tuning (digit tuning - usdx tuning style) implemented instead of dynamic tuning
 
-By default jog position is set to 0.1 digit. Short knob press to shift jog single position right (eg. to 0.01),
-press little longer to shift jog to the left (e.g. 1.0, 10 and 100 respectively).
-Actual jog position is displayed at the bottom right corner of TFT screen.
-This firmware allows for 0.01 kHz step tuning (0.05 kHz minimal was in original firmware).
+By default jog position is set to 0.1 digit. Short press of the knob shifts jog position to the right (eg. to 0.01),
+pressing little longer shifts jog to the left (e.g. to 1, 10 and 100 respectively).
+Actual jog position is displayed at the bottom right corner of TFT screen (.01, .1, 1, 10 and 100).
+So, this firmware allows for 0.01 kHz step tuning while original firmware allows for 0.05 kHz minimal step.
 
 2. Discovered that function checking TFT touch screen is sometimes causing audio noises (possible due to SPI).
-With this firmware You can toggle TFT touch ON/OFF with ~5 seconds press and release of the knob.
-Status of touch state is indicated by "t" letter at the bottom right corner of TFT screen.
+With this firmware You can toggle funtion for TFT touch sensing ON/OFF with ~5 seconds press and release of the knob.
+Status of touch sensing is indicated by "t" letter at the lower right corner of TFT screen (just after jog position indicator).
 
-3. CW keying modified - discovered that start of CW TX is cutting out first dots - starting dots were not transmitted. 
-Some TX delays were commented out, CW TX is smooth now. Couple CW QSO made.
+3. CW keying is modified. Discovered that start of CW TX is delayed and cutting out e.g. first dot in R letter (.-.) - first dot was not transmitted. Some mods were made and CW TX seems to be smooth now. Couple CW QSO made with straight key.
 
-4. Additionally discovered that CW TX frequency was shifted by sidetone +/- depending if USB or LSB was selected.
+4. Additionally discovered that CW TX frequency was shifted by sidetone +/- depending on USB or LSB was selected.
 This shift was commented out and CW TX occurs now on displayed/selected frequency.
 
 5. Some cosmetic and SW stability changes
