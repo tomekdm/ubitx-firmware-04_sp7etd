@@ -24,7 +24,7 @@ I would like to take this opportunity to thank the creator of this project Ashha
 as well as all the people thanks to whom this wonderful project lives and becomes better.
 
 Today, when I am writing this text I am after couple days (during my May's holidays) with this rig. 
-During this couple days I was able to make more than 50 QSO (SSB, CW and some intercontinent DX - with 30W PA on 15m)
+During this couple days I was able to make more than 50 QSOs (SSB, CW and some intercontinent DX - with 30W PA on 15m)
 while adjusting the firmware.
 Still some HW mods are planned to be made based on data from ubitx websites (AGC, CW audio filter, S-meter etc.).
 
@@ -41,7 +41,7 @@ So, this firmware allows for 0.01 kHz step tuning while original firmware allows
 With this firmware You can toggle funtion for TFT touch sensing ON/OFF with ~5 seconds press and release of the knob.
 Status of touch sensing is indicated by "t" letter at the lower right corner of TFT screen (just after jog position indicator).
 
-3. CW keying is modified. Discovered that start of CW TX is delayed and cutting out e.g. first dot in R letter (.-.) - first dot was not transmitted. Some mods were made and CW TX seems to be smooth now. Couple CW QSO made with straight key.
+3. CW keying is modified. Discovered that start of CW TX is delayed and cutting out e.g. first dot in R letter (.-.) - first dot was not transmitted. Some mods were made and CW TX seems to be smooth now. Couple CW QSOs made with straight key.
 
 4. Additionally discovered that CW TX frequency was shifted by sidetone +/- depending on USB or LSB was selected.
 This shift was commented out and CW TX occurs now on displayed/selected frequency.
