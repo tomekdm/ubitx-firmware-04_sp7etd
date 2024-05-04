@@ -9,7 +9,7 @@ IMPORTANT: It will compile only if you place this in the Arduino's own sketch di
 This is released under GPL v3 license.
 
 
-
+/////////////////////////////////////
 
 //04_sp7etd firmware update manual://
 NOTE 1:
